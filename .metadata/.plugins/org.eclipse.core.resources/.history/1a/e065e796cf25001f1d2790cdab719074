@@ -1,0 +1,7 @@
+package model;
+
+public class Auth {
+	public static void main(String[] args) {
+		MayTinh.cong(12, 12);
+	}
+}

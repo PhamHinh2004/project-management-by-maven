@@ -1,0 +1,16 @@
+package TestMayTinh;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import model.PhepTinh;
+
+class TestMayTinh {
+
+	@Test
+	void test() {
+		assertEquals(10, PhepTinh.phepCong(10, 5));
+	}
+
+}
